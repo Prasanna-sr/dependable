@@ -152,7 +152,7 @@ describe 'inject', ->
     deps.resolve (one, two) ->
       assert.ok one
       assert.ok two
-      assert.equal one, "bob one"
+      assert.equal one222, "bob one"
       assert.equal two, "bob two"
       done()
 
